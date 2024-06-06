@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    cursor: default;
+    margin: auto;
+}
+
+#main {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: -1px;
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.inner {
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    pointer-events: none;
+    width: 175px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.text {
+    display: inline-flex;
+    margin-bottom: 8px;
+}
+
+.inner p {
+    font-size: large;
+    font-weight: 400;
+    margin: auto;
+}
+
+.sm {
+    display: block;
+}
+
+.sm i {
+    font-size: 1.4em;
+    color: white;
+    padding: 4px;
+
+    transition: 0.25s ease-in-out;
+}
+
+.sm i:hover {
+    color: #5500FF;
+}
