@@ -1,0 +1,49 @@
+/**
+ * @name Oreocord
+ * @author x86atron
+ * @version 1.0.0
+ * @invite 2TPVS8Bghz
+ * @description Alters Discord's appearance to match the color and shape of an Oreo
+ * @source https://x86atron.github.io/Oreocord/Oreocord.css
+ */
+
+@import url("https://x86atron.github.com/Oreocord/Oreocord.css");
+@import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.css");
+
+/*
+
+⌜ Oreocord Settings ⌟
+
+To edit a declaration, simply copy each variable below and
+paste it between the left and right parenthesis after "var."
+
+--default-font          (Default Discord Typeface) (gg sans)
+--classic-font          (Old Discord Typeface) (Whitney)
+--classic-title-left    (Old Discord Logo) (Default Position)
+
+--oreocord-icon         (Oreocord Home Icon)
+--x86atron-icon         (x86atron Home Icon)
+
+*/
+
+/* Custom Home Icon */
+.childWrapper_a6ce15 {
+    background-image: none; /* Set None to one of the icons, or your own image */
+}
+
+/* Default Home Icon */
+.childWrapper_a6ce15 svg {
+    display: block; /* Set to None to hide */
+}
+
+/* Window Title */
+.typeWindows_e41dab {
+    background-position: center;
+}
+
+/* Font */
+:root {
+    --font-primary: var(--classic-font);
+    --font-display: var(--classic-font);
+    --font-headline: var(--classic-font);
+}
